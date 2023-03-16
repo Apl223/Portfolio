@@ -1,5 +1,3 @@
-# Adrian Slowinski's portfolio
-
 ### [Real estate prices](https://github.com/Apl223/College_and-Machine-Learning-projects/tree/main/RealEstatePrices)
 Machine learning project with pandas, sklearn, SQLite3, and Flask.
 
