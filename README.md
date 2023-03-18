@@ -1,6 +1,7 @@
 ### [Real estate prices](https://github.com/Apl223/College_and-Machine-Learning-projects/tree/main/RealEstatePrices)
 * Machine learning project with pandas, sklearn, SQLite3, and Flask.
-* Populating prediction results into a SQLite3 database then querying and displaying their results with Flask. 
+* Populating prediction results into a SQLite3 database then querying and displaying their results with Flask.
+* Uses the Melbourne Housing Dataset
 * Required user input for CSV file. 
 * Targets sale prices and uses other columns in the set as features to predict housing prices. 
 * Splits training and validation data to fit three different regressors in which the mean absolute error will be calculated and stored for each of them: Decision tree, * Decision tree with a maximum limit of 100 nodes and Random Forest.
