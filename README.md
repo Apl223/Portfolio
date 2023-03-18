@@ -12,5 +12,5 @@
 * Built a classification model to predict the edibility of mushrooms based on their physical characteristics. 
 * Uses the Mushroom Classification dataset and employs various machine learning algorithms, such as decision trees, logistic regression, and k-nearest neighbors, to   train and evaluate the models. 
 * The project also includes exploratory data analysis and data visualization to gain insights into the dataset. 
-* The ultimate aim of this project is to provide an accurate and reliable model that can help identify poisonous mushrooms and prevent potential health hazards. 
+* Provide an accurate and reliable model that can help identify poisonous mushrooms and prevent potential health hazards. 
 * Used pandas, numpy, seaborn and matplotlib libraries.
