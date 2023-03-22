@@ -6,6 +6,7 @@
 * Targets sale prices and uses a subset of columns in the set as features to predict housing prices. 
 * Splits training and validation data to fit three different regressors in which the mean absolute error will be calculated and stored for each of them: Decision tree, Decision tree with a maximum limit of 100 nodes and Random Forest.
 
+![](./images/flaskapp.png)
 
 ### [Poisonous mushroom features](https://github.com/Apl223/College_and-Machine-Learning-projects/tree/main/Mushrooms)
 * Built a classification model to predict the edibility of mushrooms based on their physical characteristics. 
