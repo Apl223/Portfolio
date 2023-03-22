@@ -13,7 +13,7 @@
 * The project also includes exploratory data analysis and data visualization to gain insights into the dataset. 
 * Used pandas, numpy, seaborn and matplotlib libraries.
 
-![](https://github.com/Apl223/Portfolio/blob/main/images/correlationmap.png)
+![](./images/correlationmap.png)
 
 ### [Analyzing stocks](https://github.com/Apl223/College_and-Machine-Learning-projects/tree/main/AnalyzingStocks-main)
 * Web scraping Yahoo for Apple's stock history with BeautifulSoup, creating and inserting the data into a SQLite3 database, and using Flask to display it.
