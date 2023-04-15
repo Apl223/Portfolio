@@ -1,8 +1,6 @@
 ### [Cybersecurity](https://apl223.github.io/Portfolio/Cybersecurity/)
 
-This repository contains my current setup for researching vulnerabilities and exploits on
-virtual machines that run vulnerable web applications and services. Documentation includes 
-tools, operating systems, and applications used.
+This repository is a log of activities that I built while expanded my cybersecurity kills.
 
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
