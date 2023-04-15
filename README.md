@@ -1,4 +1,4 @@
-### [Home Lab - Pentesting](https://github.com/Apl223/Home-Lab)
+### [Home Lab - Pentesting](https://apl223.github.io/Portfolio/Cybersecurity/)
 
 This repository is a log of labs and activities that I've built as I expanded my cybersecurity skills. 
 It will be consisting of Windows and Linux virtual machines on VMWare Workstation, and documentation of 
