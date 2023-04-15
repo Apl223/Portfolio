@@ -1,7 +1,8 @@
-### [Home Lab - Pentesting](https://apl223.github.io/Portfolio/Cybersecurity/)
+### [Cybersecurity](https://apl223.github.io/Portfolio/Cybersecurity/)
 
 This repository contains my current setup for researching vulnerabilities and exploits on
-virtual machines that run vulnerable web applications and services.
+virtual machines that run vulnerable web applications and services. Documentation includes 
+tools, operating systems, and applications used.
 
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
