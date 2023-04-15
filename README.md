@@ -1,6 +1,6 @@
 ### [Cybersecurity](https://apl223.github.io/Portfolio/Cybersecurity/)
 
-This repository is a log of activities that I built while expanded my cybersecurity kills.
+This page contains my activities and labs that I've built to expand my knowledge and skills in cybersecurity.
 
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
