@@ -1,7 +1,9 @@
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
-Projects involving web scraping and analyzing stock data as well as training and validating models for real estate or poisonous features for mushrooms.
-Built web applications to allow users in insert their own data to train several models to see which one is more accurate.
+Projects involved:
+* Training and validating models for real estate price predictions or poisonous features for mushrooms.
+* Built web applications to allow users to insert their csv data to train multiple models for predicting real estate prices.
+* Built another web application that displays stock data that was scraped and populated in a database. 
 
 ### [Cybersecurity projects](https://github.com/Apl223/Home-Lab)
 
