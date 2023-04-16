@@ -8,6 +8,7 @@ Projects include training and validating models, web scraping, and web applicati
 
 <table>
     <tr>
+        <th></th>
         <th>Subject</th>
         <th>Description</th>
     </tr>
