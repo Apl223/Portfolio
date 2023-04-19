@@ -30,5 +30,10 @@
     * ^ matches start of thge string or line
     * $ matches the end of a string or line.
 * Operators:
-    * star matches the preceding char zero or more times
-    * + matches the preceding char one or more times
+    * star - matches the preceding char zero or more times
+    * plus symbol - matches the preceding char one or more times
+    * {1,3} - matches preceding char one to three times.
+    * {1,} - matches preceding char one or more times.
+    * [abc] - matches one of the chars
+    * [a-z] - matches one of the chars in the range.
+    * (a|b|c) - matches either one.
