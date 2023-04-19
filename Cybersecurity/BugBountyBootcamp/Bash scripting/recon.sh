@@ -1,14 +1,14 @@
-#!/bin/bash   <!-- Shebang line to indicate the script is written in bash -->
-source ./scan.lib   <!-- Source scan.lib script -->
+#!/bin/bash   # Shebang line to indicate the script is written in bash
+source ./scan.lib   # Source scan.lib script
 
-<!-- While loop with getopts to parse command line options -->
+# While loop with getopts to parse command line options
 while getopts "m:i" OPTION;
   do case $OPTION in 
     m) 
-      MODE=$OPTARG   <!-- Set MODE variable to the value of the option argument passed to -m -->
+      MODE=$OPTARG   # Set MODE variable to the value of the option argument passed to -m
       ;;
     i)
-      INTERACTIVE=true   <!-- Set INTERACTIVE variable to true if the -i option is passed -->
+      INTERACTIVE=true   # Set INTERACTIVE variable to true if the -i option is passed 
       ;;
     esac 
   done 
