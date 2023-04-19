@@ -24,3 +24,9 @@
   * **Self-XSS** - a social engineering attack that tricks users into executing a XSS intructed by the attacker.
 
    ### Hunting for XSS
+   
+   * <script> tag payloads are unlikely to work on their own, you must use different methods.
+       * onlick
+       * onerror
+       * URL schemes like javascript: or data:
+       * onload
