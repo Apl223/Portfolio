@@ -44,3 +44,27 @@ Example: grep -E "^\S+\s+\S+\s+\S+
 * We will be filtering a nmap output with this pattern, line by line.
 * According to the regex, will be looking for lines that have 3 words (Denoted by S+, non-whitespace string with one or more characters) 
 and 2 spaces (Denoted by s+, one or more spaces of whitespace). 
+
+### Specifying flags for the script
+
+* Use getopts to parse options & arguments
+* Example: getopts OPTSTRING NAME
+    * OPTSTRING specifies the letter
+    * -m & -i should be denoted as mi, if it needs input then put a colon such as m:i
+    * NAME specifies the var name that will store the letter.
+* Implementation: getopts "m:" OPTION
+    * getopts automatically sets and stores the value of any arguements into the $OPTARG var.
+    * We will save this into the MODE var.
+    * ./recon.sh -m nmap-only DOMAIN1 DOMAIN 2
+    
+### Reading every domain argument
+
+* for loop
+* Implementation: for i in "${@:$OPTIND:$#}" do ... done
+* This creates an array that contains every command line argument except the ones parsed by getopts.
+* getopts stores the first index of the arguments provided by the user in options like -m into $OPTIND.
+* $@ extracts a sublist of positional parameters starting from the index specified by $OPTIND and spans $#.
+    * We are denoting $@ instead of @ since these have values stored as vars.
+* ${@:OPTIND:} slices the array so that it removes the mode argument, that way we will iterate through the domains we supplied.
+    * "${INPUT_ARRAY:START_INDEX:END_INDEX}"
+    
