@@ -35,3 +35,15 @@ Arguements:
 * You could do a reverse WHOIS on emails or phone numbers to find domains registered.
     * Reverse IP lookup works too with nslookup
     * If you run whois on the domain, check the "NetRange" field that shows the range of IPs the org has.
+* IP addresses with the same ASN code number means they belong to the same org.
+    * ASN stands for Autonomous system number which belong to publicly routable networks.
+    * whois -h whois.cymru.com 157.240.2.20
+    * h declares whois server to query
+    * command will respond with the ASN
+
+### Certificate Parsing
+
+* Host info can also be found from SSL certs by checking the Subject Alternative Name field.
+* This allows owners to reuse the same cert.
+* crt.sh, Censys, Cert Spotter
+
