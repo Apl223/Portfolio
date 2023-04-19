@@ -1,4 +1,4 @@
-### Writing scripts for recon
+### Bash principles
 
 * First line should interpertor we will be using with #!
     * !# /bin/bash
