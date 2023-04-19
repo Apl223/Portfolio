@@ -10,9 +10,9 @@
     * chmod 700 recon.sh for owners only.
 * Output to file operands.
     * Program > Filename: Replaces file content with program output. Creates the file if it doesnt exist.
-    * >> : Appends output to the end
-    * < : Reads from file and uses it as input
-    * | : Uses output of one program as input for another.
+    * ">>" : Appends output to the end
+    * "<" : Reads from file and uses it as input
+    * "|" : Uses output of one program as input for another.
 
 
 
