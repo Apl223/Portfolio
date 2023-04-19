@@ -1,3 +1,5 @@
+md.linkify.set({ fuzzyLink: false });
+
 ### Types of XSS
 
 * XSS happens when scripts run on a victim's browser when a website cant tell the difference betweene user input and website code.
