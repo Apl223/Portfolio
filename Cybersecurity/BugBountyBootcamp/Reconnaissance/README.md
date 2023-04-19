@@ -28,3 +28,10 @@ Arguements:
 * Check out exploit-db.com/google-hacking-database/
     * Practioners share their queries that could be useful for discovery here.
 
+### WHOIS & reverse WHOIS
+
+* Companies & individuals must provide identifying info when registering for a domain name to a domain registrar.
+* These arent always available due to a domain privacy service, so you'd only see info from a forwarding service.
+* You could do a reverse WHOIS on emails or phone numbers to find domains registered.
+    * Reverse IP lookup works too with nslookup
+    * If you run whois on the domain, check the "NetRange" field that shows the range of IPs the org has.
