@@ -14,6 +14,21 @@
     * "<" : Reads from file and uses it as input.
         * nmap $1 > $1_recon/nmap
     * " | " : Uses output of one program as input for another.
+* Saves the output of a command in a variable:
+   * VAR = $(command)
 
+### Regex
 
-
+* Describes search patterns.
+* Consists of constants (strings) and operators (symbols that operate over strings)
+* Characters:
+    * \d matches digits
+    * \w matches characters
+    * \s matches whitespace, \S for non-whitespace
+    * . matches a single char
+    * \ escapes a special char
+    * ^ matches start of thge string or line
+    * $ matches the end of a string or line.
+* Operators:
+    * * matches the preceding char zero or more times
+    * +
