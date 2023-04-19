@@ -35,7 +35,7 @@
       * data: text/html; base64, PHNjcmlwd...+"
           * This scheme allows you to embed small files to the URL.
           * The data at the end is encoded in base64 to bypass the XSS filters.
-  * Works on <img> tag.
+  * Works on <<span>img> tag.
       * https://example.com/upload_profile_pic?url=IMAGE_URL
       * IMAGE URL will be inserted in a <img> tag when the image is rendered.
   * **Take note of which characters are being rendered directly and which ones are escaped.**
@@ -53,7 +53,7 @@
 ### Other test methods
 
 * Test strings: 
-    * >
+    * <span>>
     * '
     * <
     * "
