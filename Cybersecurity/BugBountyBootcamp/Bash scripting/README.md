@@ -11,8 +11,9 @@
 * Output to file operands.
     * Program > Filename: Replaces file content with program output. Creates the file if it doesnt exist.
     * ">>" : Appends output to the end
-    * "<" : Reads from file and uses it as input
-    * "|" : Uses output of one program as input for another.
+    * "<" : Reads from file and uses it as input.
+        * nmap $1 > $1_recon/nmap
+    * " | " : Uses output of one program as input for another.
 
 
 
