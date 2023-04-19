@@ -4,7 +4,7 @@
 * Stored XSS - When user input is stored on a server and retrieved later unsafely.
     * Although they weren't properly sanitized being injected, scripts could be escaped/sanitized if it was being retrieved 
     * Most dangerous type of XSS
-    * <p><script> alert('XSS by Vickie'); </script></p>
+    * <script> alert('XSS by Vickie'); </script>
     * Cookies and personal info could be stolen with XSS. But it can also change site contents and redirect to other sites.
  * Blind XSS - a stored XSS that takes place someplace else in the application.
     * Harder to detect, you cant find them by lookinh got reflected input from the server.
