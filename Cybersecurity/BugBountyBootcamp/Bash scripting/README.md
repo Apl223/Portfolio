@@ -37,3 +37,10 @@
     * [abc] - matches one of the chars
     * [a-z] - matches one of the chars in the range.
     * (a|b|c) - matches either one.
+    
+Example: grep -E "^\S+\s+\S+\s+\S+
+
+* -E denotes that regex will be used.
+* We will be filtering a nmap output with this pattern, line by line.
+* According to the regex, will be looking for lines that have 3 words (Denoted by S+, non-whitespace string with one or more characters) 
+and 2 spaces (Denoted by s+, one or more spaces of whitespace). 
