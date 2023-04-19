@@ -43,8 +43,8 @@
 
 * <script> alert(1) </script>
 * <iframe src = javascript: alert(1) >
-* <body onload=alert(1)>
-* "><img src=x onerror=prompt(1);>
+* <span><body onload=alert(1)>
+* <span>"><img src=x onerror=prompt(1);>
 * <script> alert(1)<!-
     * <!- is an HTML comment, prevents syntax errors.
 * <a onmouseover" alert(1)"> test </a>
