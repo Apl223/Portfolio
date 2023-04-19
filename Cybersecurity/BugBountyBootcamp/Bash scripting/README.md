@@ -30,5 +30,5 @@
     * ^ matches start of thge string or line
     * $ matches the end of a string or line.
 * Operators:
-    * * matches the preceding char zero or more times
-    * +
+    * star matches the preceding char zero or more times
+    * + matches the preceding char one or more times
