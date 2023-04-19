@@ -9,4 +9,6 @@
  * Blind XSS - a stored XSS that takes place someplace else in the application.
     * Harder to detect, you cant find them by lookinh got reflected input from the server.
     * Attacks can host their own server and if they see a response to that server, then that web application has that XSS vulnerability.
- *
+ * Reflected XSS - user input is returned without being stored in a database. Often found in input forms that build pages, like search boxes.
+     * https://example.com/search?q=<script> ... </script>
+     * Not only could they extract data, but **perform malicious actions on the victim's machine on behalf of the attacker**.
