@@ -23,3 +23,8 @@ Arguements:
 * site: example.com ext:php
     * You can also search cfm,asp,jsp, and pl.
     * **Possibly download them and run them through a static code analyzer to find vulnerabilities.**
+* site:example.com ext:txt password
+    * searches example.com for text files containing "password".
+* Check out exploit-db.com/google-hacking-database/
+    * Practioners share their queries that could be useful for discovery here.
+
