@@ -26,7 +26,11 @@
    ### Hunting for XSS
    
   * The <script> tag are unlikely to work on their own, you must use different methods.
+  * HTML attributes:
       * onlick
       * onerror
-      * URL schemes like javascript: or data:
       * onload
+  * URL schemes like javascript: or data:
+      * javascript: alert('Hello')
+      * data: text/html; base64, PHNjcmlwd...+"
+          * This scheme allows you to embed small files to the URL.
