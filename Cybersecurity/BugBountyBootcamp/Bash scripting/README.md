@@ -63,7 +63,7 @@ and 2 spaces (Denoted by s+, one or more spaces of whitespace).
 * Implementation: for i in "${@:$OPTIND:$#}" do ... done
 * This creates an array that contains every command line argument except the ones parsed by getopts.
 * getopts stores the first index of the arguments provided by the user in options like -m into $OPTIND.
-* $@ extracts a sublist of positional parameters starting from the index specified by $OPTIND and spans $#.
+* "$@" extracts a sublist of positional parameters starting from the index specified by $OPTIND and spans $#.
     * We are denoting $@ instead of @ since these have values stored as vars.
 * ${@:OPTIND:} slices the array so that it removes the mode argument, that way we will iterate through the domains we supplied.
     * "${INPUT_ARRAY:START_INDEX:END_INDEX}"
