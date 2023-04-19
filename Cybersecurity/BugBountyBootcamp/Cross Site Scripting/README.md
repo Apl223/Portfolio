@@ -55,8 +55,8 @@
 * Test strings: 
     * <span>>
     * '
-    * <
-    * "
+    * <span><
+    * <span>"
     * //
     * :
     * =
