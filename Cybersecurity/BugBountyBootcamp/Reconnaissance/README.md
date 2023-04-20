@@ -47,3 +47,25 @@ Arguements:
 * This allows owners to reuse the same cert.
 * crt.sh, Censys, Cert Spotter
 
+### Subdomain Enumeration
+* Once you have discovered domains under individuals or orgs, discover what subdomains there are.
+* Tools: Sublist3r, SubBrute, Amass, Gobuster
+    * Sublist3r queries search engines & databases
+    * SubBrute guesses possible names.
+    * Amass uses different methods.
+    * Commonspeak2 generates wordlists based on Internet data.
+    * SecLists has extensive wordlists for use.
+        * Creating a wordlist with unique values between two files:
+        sort -u WORDLIST1 WORDLIST2
+        
+### Service Enumeration
+ * Tools: nmap, Shodan and Masscan
+ 
+### Directory Enumeration
+ * Tools: Dirsearch or Gobuster.
+ * These will construct URL requests with wordlists, and return a status code.
+     * 200 - file exists
+     * 404 - doesn't exist
+     * 403 - Protected. Examine these files to see if you can circumvent it.
+ * Use OWASP Zed Attack Proxy for web spidering or crawling. 
+ 
