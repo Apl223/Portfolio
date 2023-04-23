@@ -1,7 +1,7 @@
 ### [Poisonous mushroom features](https://github.com/Apl223/College-projects/blob/main/MushroomClassification/mushroom.ipynb)
 * Built a classification model to predict the edibility of mushrooms based on their physical characteristics. 
 * Provides an accurate and reliable model that can help identify poisonous mushrooms and prevent potential health hazards. 
-* Uses the Mushroom Classification dataset and employs various machine learning algorithms, such as decision trees, logistic regression, and k-nearest neighbors, to   train and evaluate the models. 
+* Uses the Mushroom Data Set on [UCI](https://archive.ics.uci.edu/ml/datasets/mushroom) and employs various machine learning algorithms, such as logistic regression, SVM, and neural networks to train and evaluate the models. 
 * The project also includes exploratory data analysis and data visualization to gain insights into the dataset. 
 * Used pandas, numpy, seaborn and matplotlib libraries.
 
