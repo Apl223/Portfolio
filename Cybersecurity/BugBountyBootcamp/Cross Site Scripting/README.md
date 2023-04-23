@@ -53,13 +53,8 @@
 ### Other test methods
 
 * Test strings: 
-    * <span>> , ' , <span>< , <span>" ,  //
-    * :
-    * =
-    * ;
-    * !
-    * --
-* Fuzzing
+    * <span>> , ' , <span>< , <span>" ,  // , : , = , ; , ! , --
+    * Fuzzing
 
 ### Bypassing filters
 
