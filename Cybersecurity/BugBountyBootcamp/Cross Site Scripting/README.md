@@ -53,10 +53,7 @@
 ### Other test methods
 
 * Test strings: 
-    * <span>> , '
-    * <span><
-    * <span>"
-    * //
+    * <span>> , ' , <span>< , <span>" ,  //
     * :
     * =
     * ;
