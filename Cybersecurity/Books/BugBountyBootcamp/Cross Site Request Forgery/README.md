@@ -13,7 +13,7 @@ These are also unique to sessions and should have enough entropy.
     * Strict disables cross-site requests.
     * Lax only allows browsers to send cookies for top-level navigation.
 * Chrome by default sets it to Lax. Attacks won't be able to do POST CSRF.
-    * Firefox, IE, & Safari doesn't. Sometimes its set to None for third parties to send cross-site authenticated requests.
+    * Firefox & Safari doesn't. Sometimes its set to None for third parties to send cross-site authenticated requests.
     * Attacks could try to use GET, so Lax could be circumvented.
 
 ### Hunting for CSRF
