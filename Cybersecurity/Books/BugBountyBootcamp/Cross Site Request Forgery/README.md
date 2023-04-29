@@ -20,7 +20,7 @@ These are also unique to sessions and should have enough entropy.
 
 * Look for requests on forms that don't have CSRF protections and create a HTML page on a server you own to test cross site functionality. Then check if changes were made.
 * Websites could be missing a CSRF token, but use refer-headers
-    * If they are using refer-headers, try removing them with the <meta> tag. Or bypass the logic by setting paths/subdomain in the URL like a XSS.
+    * If they are using refer-headers, try removing them with the <<span>meta> tag. Or bypass the logic by setting paths/subdomain in the URL like a XSS.
 * CSRF protections aren't always comprehensive. Exploit clickjacking to achieve the same result, change methods, and find validation issues like submitting requests with no CSRF tokens.
 * Bypass Double-Submit CSRF tokens, which have cookies & paramters with the same values. Requests that don't have similar values for both will be invalid.
 Token validity doesn't really matter as the server unlikely keeps track of the cookies validity.
