@@ -4,13 +4,13 @@
 * Predictable naming conventions are a source for IDOR.
 
 ### Prevention
-
+#
 * Randomize object names
 * Authorization. Check user's identity & permissions
 * Hashing
 
 ### Hunting IDORs
-
+#
 * Create multiple accounts & discover as many features as possible.
 * Use a proxy to modify packets. REST & GraphQL are often vulnerable to this.
 * Decode encoded or hashed IDs. Common encoding schemes: base64, URL encoding, base64url or use Smart Decode tool. 
