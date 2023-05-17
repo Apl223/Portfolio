@@ -1,5 +1,5 @@
 ### Bash principles
-
+#
 * First line should interpertor we will be using with #!
     * !# /bin/bash
 * $1 represents the first argument the user passed in. Continues to $2 and so on.
@@ -18,7 +18,7 @@
    * VAR = $(command)
 
 ### Regex
-
+#
 * Describes search patterns.
 * Consists of constants (strings) and operators (symbols that operate over strings)
 * Characters:
@@ -46,7 +46,7 @@ Example: grep -E "^\S+\s+\S+\s+\S+
 and 2 spaces (Denoted by s+, one or more spaces of whitespace). 
 
 ### Specifying flags for the script
-
+#
 * Use getopts to parse options & arguments
 * Example: getopts OPTSTRING NAME
     * OPTSTRING specifies the letter
@@ -58,7 +58,7 @@ and 2 spaces (Denoted by s+, one or more spaces of whitespace).
     * ./recon.sh -m nmap-only DOMAIN1 DOMAIN 2
     
 ### Reading every domain argument
-
+#
 * for loop
 * Implementation: for i in "${@:$OPTIND:$#}" do ... done
 * This creates an array that contains every command line argument except the ones parsed by getopts.
