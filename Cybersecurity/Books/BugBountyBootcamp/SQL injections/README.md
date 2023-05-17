@@ -3,4 +3,44 @@
 * Similar to XSS, this executes incorrectly filtered or escaped SQL commands to an app's database.
 * Leads to authentication bypass, data leaks, tampering and RCE.
 * Login prompts are an avenue for these vulnerabilities since you are submitting queries for login information.
-* *UNION* operator combines the result of SELECT statements.
+
+### Second-Order SQL Injections
+#
+* First order injections are when user input is used directly in a SQL query.
+* Second order is when you retrieve stored user input from the database.
+
+### Prevention
+#
+* Prepared statements/Parameterized queries. 
+    * These make injections practically impossible by ensuring user input doesn't alter SQL logic.
+    * The SQL servers compiles the SQL query before any user input is inserted. You'd define
+    the logic first before the input data.
+    * Anything that deviates from this logic will be treated as a string that is uncapable of executing.
+* Create an allowlist for values. You could allow operators like ORDER BY for example.
+* Escaping/Sanitizing.
+    * ' and " should be fixed.
+    * **Different databases have specific characters.**
+
+### Hunting SQL Injections
+#
+* Categorized into classic & blind varieties.
+* Common technique is to insert a single ' then for errors or odd behavior.
+* The ' denotes the end of a query string.
+* Introducing or experiencing time delays could be a hint.
+* Fuzzing
+* **Classic** - SQL queries that are returned directly to the attacker.
+#
+* **Blind** - Harder to find because the web app doesn't return SQL data or error messages. Also called **Inferential SQL injections**.
+* These are normally boolean or time based.
+* Boolean testing involves sending test conditions to recieve true/false return values. Infering info.
+* Time-based injections rely on response times between different payloads. This is meant more for apps that dont give visual clues.
+
+### NoSQL Injections
+#
+* Stands for Not-Only SQL. Does not use SQL.
+* SQL stores data in tables. NoSQL stores data in key-value pairs and graphs.
+* Syntax is database specific:
+    * MongoDB: Users.find({username:'vickie',password:'password123'})
+    * Replace 'password123' with {$ne: ""}. This searches for a paired value that does equal " ". You can find passwords this way.
+    * You can execute JavaScript as well. $where,mapReduce,$accumulator, and $function.
+    * Characters like ' , ", ; , \ , () , [] , and {} can be used.
