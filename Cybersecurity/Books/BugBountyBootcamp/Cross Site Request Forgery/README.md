@@ -1,11 +1,11 @@
 ### Cross Site Request Forgery
-
+#
 * You can send out HTTP requests to pretend to be the victim, and make unwanted actions on their behalf.
 * Targets state-changing requests, like sending tweets or changing settings.
 * These requests are authenticated with cookies. You could trick a user with a clickjack and have them tweet regardless of where the request is coming from since you are using their cookies
 
 ### Prevention
-
+#
 * CSRF tokens, random set of strings on every form on the website. These are validated to see if they come from the original website.
 These are also unique to sessions and should have enough entropy.
 * Many frameworks have CSRF tokens built-in.
@@ -17,7 +17,7 @@ These are also unique to sessions and should have enough entropy.
     * Attacks could try to use GET, so Lax could be circumvented.
 
 ### Hunting for CSRF
-
+#
 * Look for requests on forms that don't have CSRF protections and create a HTML page on a server you own to test cross site functionality. Then check if changes were made.
 * Websites could be missing a CSRF token, but use refer-headers
     * If they are using refer-headers, try removing them with the <<span>meta> tag. Or bypass the logic by setting paths/subdomain in the URL like a XSS.
