@@ -27,4 +27,5 @@
 * If they returned the result, it means its part of the code.
 * Go through each to test what engine it is, generate errors if needed.
 * Try to use modules like {{os.system('ls')}}. If an error says it is "undefined"
-  that means its not in the enviroment. These are not included so its easier to mitigate these attacks. _<span>_import()_<span>_ may not work either.
+  that means its not in the enviroment. These are not included so its easier to mitigate these attacks. 
+* _import()_ may not work either.
