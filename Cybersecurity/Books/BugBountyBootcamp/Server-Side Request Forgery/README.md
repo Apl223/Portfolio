@@ -1,13 +1,13 @@
 ### Server-Side Request Forgery
 #
 * Lets an attacker send requests on behalf of a server to internal or external sources. Bypassing firewalls and assuming privilege.
-* As an example, If you were to pass https://public.example.com/proxy?url=https://admin.example to a public facing proxy for an app, 
+* As an example, If you were to pass h<span>ttps://public.example.com<span>/proxy?url=https://<span>admin.example to a public facing proxy for an app, 
   it would allow for you to access an admin panel. The server should be trusted by the site that hosts that admin panel since its 
   an internal machine. This way, the vulnerable internet-facing server could allow for attackers to read files, make API calls, 
   and access internal services.
 * SSRF's have a blind attack variety.  They are more valuable for network scanning when you can't get direct results.
 * If profile images allow users to specify, you could get internal resource to display passwords. You could change a paramater 
-  like user_id to user_id=1234&url=https://localhost/password.txt.
+  like user_id to user_id=1234&url=htt<span>ps://localhost<span>/password.txt.
 ### Prevention
 #
 * Blocklist/Allowlist. **Blocklists are banned addresses while alllowlists allow only requests for specified URLs.**
