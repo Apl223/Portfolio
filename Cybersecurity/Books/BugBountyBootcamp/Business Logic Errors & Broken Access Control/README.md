@@ -4,9 +4,9 @@
   advantage of misusing application logic to achieve unintended results.
 * **Broken access controls happen when functions or resources aren't properly protected, 
   and logic errors are for when developers overlook misuse cases.**
-      * Accessing admin panels, IDOR, SSRF are examples of broken access control. These
-        could be found by tampering with cookies or request headers. Directory traversal is also
-        an example of broken access control, but requires sanitization issues to occur.
+    * Accessing admin panels, IDOR, SSRF are examples of broken access control. These
+      could be found by tampering with cookies or request headers. Directory traversal is also
+      an example of broken access control, but requires sanitization issues to occur.
 * Multi-factor authentication has common logic errors where you can skip 
   process steps by visiting the URL of the last step.
 * Another common problem with logic errors is multi-step checkout processes.
