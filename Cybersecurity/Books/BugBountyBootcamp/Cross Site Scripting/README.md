@@ -2,7 +2,7 @@
 #
 * XSS happens when scripts run on a victim's browser when a website cant tell the difference betweene user input and website code.
 * **Stored XSS** - When user input is stored on a server and retrieved later unsafely.
-    * Although they weren't properly sanitized being injected, scripts could be escaped/sanitized if it was being retrieved 
+    * Although they weren't properly sanitized after being injected, scripts could be escaped/sanitized if it was being retrieved 
     * Most dangerous type of XSS
     * <script> alert('XSS by Vickie'); </script>
     * Cookies and personal info could be stolen with XSS. But it can also change site contents and redirect to other sites.
