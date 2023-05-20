@@ -5,4 +5,4 @@ This repository contains my current setup for researching vulnerabilities and ex
 This repository contains my notes and thoughts from various books.
 
 ### [Labs](https://apl223.github.io/Portfolio/Cybersecurity/Labs/)
-This repository contains notes on all the labs I've done.
+This repository contains notes and takeaways on all the labs I've done.
