@@ -9,7 +9,7 @@
     * **Forms, search boxes, name, or username fields.**
     * Sometimes menus or numeric fields can have XSS if you change their values in a proxy.
  * **Blind XSS** - a stored XSS that takes place someplace else in the application.
-    * Harder to detect, you cant find them by lookinh got reflected input from the server.
+    * Harder to detect, you cant find them by looking to see if there was reflected input in the server response.
     * Attacks can host their own server and if they see a response to that server, then that web application has that XSS vulnerability.
  * **Reflected XSS** - user input is returned without being stored in a database. Often found in input forms that build pages, like search boxes.
      * h<span>ttps://example.com/search?q=<script> ... </script>
