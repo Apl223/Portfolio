@@ -26,7 +26,7 @@
 #
 ![](./images/XSS_S2LVL2.png)
 #
-*At this point, it was time to look at the source code for any hints.
+* At this point, it was time to look at the source code for any hints.
 #
 ![](./images/XSS_S3LVL2.png)
 ![](./images/XSS_S4LVL2.png)
