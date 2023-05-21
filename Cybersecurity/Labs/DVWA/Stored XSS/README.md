@@ -22,7 +22,7 @@
 #
 ![](./images/XSS_S1LVL2.png)
 #
-* Nothing was sanizated with <body<meta> onload=alert(1)><meta> but no alerts appeared on screen.
+* <<meta>body> tags are being sanitized completely, such as <body<meta> onload=alert(1)><meta>.
 #
 ![](./images/XSS_S2LVL2.png)
 #
