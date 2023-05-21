@@ -9,8 +9,10 @@
 #
 ![](./images/XSS_S3.png)
 ![](./images/XSS_S4.png)
+#
 * Whenever I reload the page, it would repeat the alert and create more entries onto the guestbook. To avoid
   this, I would need to clear it via the form button.
+#
 ![](./images/XSS_S5.png)
 #
 ### Security level: MEDIUM
