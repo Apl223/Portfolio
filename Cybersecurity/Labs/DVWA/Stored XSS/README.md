@@ -26,3 +26,15 @@
 #
 ![](./images/XSS_S2LVL2.png)
 #
+*At this point, it was time to look at the source code for any hints.
+#
+![](./images/XSS_S3LVL2.png)
+![](./images/XSS_S4LVL2.png)
+#
+* It looks like the message text area strips any tags and adds slashes in the message after submission. Just like what we observed.
+* But the name field doesn't have the same stringent rules for sanitization because it replaces <script> with an empty string.
+  This means we can layer a <script> tag within another one so that it strips the inner one and and forms the outter <script> tag.
+* We have an issue with writing the entire script line, so we inspect the name field and increase the **maxlength** attribute to 50 so we
+  can insert <scri<script>pt>alert('hello')</script>
+#
+![](./images/XSS_S5LVL2.png)
