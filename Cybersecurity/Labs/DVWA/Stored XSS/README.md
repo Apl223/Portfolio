@@ -15,6 +15,7 @@
 # 
 * Changing capitilization for tags didnt work, such as <scrIPT> alert('hello') </script>
 * Found some patterns to the sanization, or where characters are being escaped.
+#
 ![](./images/XSS_S1LVL2.png)
 #
 * Nothing was sanizated with <body<meta> onload=alert(1)><meta> but no alerts appeared on screen.
