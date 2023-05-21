@@ -26,5 +26,3 @@
 #
 ![](./images/XSS_S2LVL2.png)
 #
-* Looked into how this page would react on Google Chrome. Instead of filtering tags altogether, it would return
-  encoded characters for < and >.
