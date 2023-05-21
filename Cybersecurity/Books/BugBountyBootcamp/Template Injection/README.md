@@ -5,8 +5,8 @@
 * Jinja2 is a template engine that runs on Python. 
 * Some enviroments have sandboxes to mitigate this vulnerability.
 * Web templates/template engines seperate server-side app logic and client-side presentation code.
-* In Jinja {{ }} is interpreted as a Python expression (variable or function that returns a value).
-  {% %} is interpreted as a statement (code that doesn't return a value).
+* In Jinja '{{ }}' is interpreted as a Python expression (variable or function that returns a value).
+  '{% %}' is interpreted as a statement (code that doesn't return a value).
 * Template files look like HTML files with HTML headers and elements. But code indicating where Python is ran.
 * You can also have Python scripts read Jinja files and product the HTML page.
 * Template engines allow devs to be more effecient by supplying different data sets and reusing templates with them.
