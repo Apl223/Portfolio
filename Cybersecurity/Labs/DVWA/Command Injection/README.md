@@ -14,3 +14,10 @@
 #
 ![](./images/CommandInjection_Medium1.png)
 #
+### Security level: HIGH
+#
+* The solution to this was using a command with using | without a space afterwards.
+* If you were to look at the source code, the developer tried to cover all bases but forgot to remove a whitespace.
+* 192.168.1.8|calc would work.
+#
+![](./images/CommandInjection_Medium2.png)
