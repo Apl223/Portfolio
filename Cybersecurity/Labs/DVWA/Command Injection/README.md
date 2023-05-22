@@ -19,5 +19,6 @@
 * The solution to this was using a command with using | without a space afterwards.
 * If you were to look at the source code, the developer tried to cover all bases but forgot to remove a whitespace.
 * 192.168.1.8|calc would work.
+* Was stuck on this and assumed all the characters would be escaped. This is a reminder to look more carefully for developer mistakes.
 #
 ![](./images/CommandInjection_Medium2.png)
