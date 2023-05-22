@@ -14,6 +14,3 @@
 #
 ![](./images/CommandInjection_Medium1.png)
 #
-
-### Security level: HIGH
-#
