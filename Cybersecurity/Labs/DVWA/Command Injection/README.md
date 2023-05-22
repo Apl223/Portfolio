@@ -9,8 +9,9 @@
 
 ### Security level: MEDIUM
 #
-* Looking at the source code, they only sanitize && and ; to empty strings. Therefore, our previous
-  command injection works just the same.
+* Looking at the source code, they only sanitize && and ; to empty strings. 
+* Therefore, our previous command injection on LOW works just the same.
+#
 ![](./images/CommandInjection_Medium1.png)
 #
 ![](./images/CommandInjection_Low2.png)
