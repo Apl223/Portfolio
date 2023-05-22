@@ -10,7 +10,6 @@
 #
 ![](./images/XSS_S3.png)
 ![](./images/XSS_S4.png)
-![](./images/XSS_S5.png)
 #
 ### Security level: MEDIUM
 # 
