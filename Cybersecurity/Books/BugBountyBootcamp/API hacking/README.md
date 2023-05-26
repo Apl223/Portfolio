@@ -1,7 +1,7 @@
 ### API hacking
 #
-* APIs specify a way for programs to communicate to each-other via a set of rules. More complex apps rely on
-  APIs.
+* APIs specify definitions and protocols for programs to communicate to each-other via a set of rules. Apps on the IPhone rely on the camera's API so that they can integrate camera functionality.
+* More complex apps rely on APIs.
 * An organization will use APIs to share data across different applications. 
 * For example, if a developer wanted the contents of a tweet, they would use a GET request to api.twitter.com. The server would return data formated
   in JSON. APIs usually return data in JSON or XML formats.
