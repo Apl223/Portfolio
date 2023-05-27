@@ -16,3 +16,5 @@
 ![](./images/CSRF_Medium1.png)
 #
 * So I tried hosting it somewhere different to see how I would circumvent this.
+* I uploaded the HTML page to this repository and access it as a GitHub page so it could render the HTML:
+https://apl223.github.io/Portfolio/Cybersecurity/Labs/DVWA/Cross Site Request Forgery/Test pages/testscript.html
