@@ -12,6 +12,7 @@
 #
 * This seem to have worked just fine with my previous HTML page, so I looked at the source code.
 * Looks like there is some access control implemented to see if the connection comes from the same domain, which it does.
+#
 ![](./images/CSRF_Medium1.png)
 #
 * So I tried hosting it somewhere different to see how I would circumvent this.
