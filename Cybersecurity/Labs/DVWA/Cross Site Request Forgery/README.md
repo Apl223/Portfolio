@@ -19,6 +19,8 @@
 * I uploaded the HTML page to this repository and accessed it as a GitHub page so it could render the HTML:
 [https://apl223.github.io/Portfolio/Cybersecurity/Labs/DVWA/Cross Site Request Forgery/Test pages/testscript.html](https://apl223.github.io/Portfolio/Cybersecurity/Labs/DVWA/Cross%20Site%20Request%20Forgery/Test%20pages/testscript.html)
 * As expected, I got the "That request didn't look correct." error.
-* I would somehow have to preserve the reference header in the request when a user makes a request from my HTML page,
+* I would somehow have to preserve the referrer header in the request when a user makes a request from my HTML page,
   otherwise the password change will not work. This will most likely involve a layered attack with open redirection or XSS
   to grab that information before I can submit a password change.
+* <meta> elements wont work to remove the requirement of the referrer header since the php source code requires we have it.
+    * <meta name="referrer" content="never"> 
