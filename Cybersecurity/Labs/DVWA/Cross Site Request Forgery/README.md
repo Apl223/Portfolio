@@ -5,5 +5,6 @@
 * This doesn't have any access control (checking the origin site) or authorization (cookies) mechanisms to protect the 
   user from social engineering attacks, so it will be quite easy to change their password.
 #
-
+![](./images/CSRF_Low1.png)
+![](./images/CSRF_Low2.png)
 
