@@ -1,4 +1,4 @@
-### Security Level: LOW
+### Security Level: Low
 #
 * For this attack, we'll host a HTML page that will change the admin's password if they were to visit the page.
 * This page will be hosted on the same server that is running the web application.
