@@ -22,5 +22,5 @@
 * I would somehow have to preserve the referrer header in the request when a user makes a request from my HTML page,
   otherwise the password change will not work. This will most likely involve a layered attack with open redirection or XSS
   to grab that information before I can submit a password change.
-* <meta> elements wont work to remove the requirement of the referrer header since the php source code requires we have it.
-    * <meta name="referrer" content="never"> 
+* <<span>meta> elements wont work to remove the requirement of the referrer header since the php source code requires we have it.
+    * <<span>meta name="referrer" content="never"> 
