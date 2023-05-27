@@ -17,5 +17,5 @@
 #
 * So I tried hosting it somewhere different to see how I would circumvent this.
 * I uploaded the HTML page to this repository and accessed it as a GitHub page so it could render the HTML:
-https://apl223.github.io/Portfolio/Cybersecurity/Labs/DVWA/Cross Site Request Forgery/Test pages/testscript.html
+[https://apl223.github.io/Portfolio/Cybersecurity/Labs/DVWA/Cross Site Request Forgery/Test pages/testscript.html](https://apl223.github.io/Portfolio/Cybersecurity/Labs/DVWA/Cross%20Site%20Request%20Forgery/Test%20pages/testscript.html)
 * As expected, I got the "That request didn't look correct." error.
