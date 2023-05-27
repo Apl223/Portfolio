@@ -3,7 +3,7 @@
 #
 * For this attack, we'll host a HTML page that will change the admin's password if they were to visit the page.
 #
-## Creating the script
+### Creating the script
 * To change the password, we will have <input> elements inside a <form> element so that it will submit the values within.
 * By inspecting the DVWA page for the <form> element, we can see that it uses the GET method, therefore our form element will have method="GET".
   You can of course find the method via proxy as well when intercepting packets.
