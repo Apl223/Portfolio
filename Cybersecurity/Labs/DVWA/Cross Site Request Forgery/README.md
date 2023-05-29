@@ -25,4 +25,9 @@
 * <<span>meta> elements wont work to remove the requirement of the referrer header since the php source code requires we have it.
     * Example: <<span>meta name="referrer" content="never"> 
 * One solution was to copy the referrer header that is sent by clicking the "Change" button on the DVWA page, to the
-  HTTP request that comes from my HTML page. After doing a little bit of research, we can **add refer heads with history.pushState().**
+  HTTP request that comes from my HTML page. But this is suppose to be a social engineering attack that is supposed to be done on my HTML
+  instead of some MITM that would require a cert to be installed on the victim's browser.
+* Going back to the XSS lab, we can change the admin's password by inserting <img><img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
+  into the name field. We can confirm the password was changed via the HTTP responses.
+  ![](./images/CSRF_Medium2.png)
+  
