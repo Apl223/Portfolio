@@ -33,7 +33,7 @@
   #
   ![](./images/CSRF_Medium2.png)
   #
-  * As a note. this image confirms that the <img<span>> element has been formed. Also meaning it wasn't escaped properly.
+  * As a note. the broken image symbol confirms that the <img<span>> element has been formed. Also meaning it wasn't escaped properly.
   ![](./images/CSRF_Medium3.png)
   #
   * **But this wouldnt work in practice because it would require the user to paste that into said form.**
