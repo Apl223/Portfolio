@@ -38,5 +38,6 @@
   #
   * **But this would be hard to pull off in practice because it would require the user to paste that into said form. Unless you have their session cookie, you could do it yourself.**
   * **It would also be difficult to change someone's password because most sites will require you to provide the current or previous password before changing it.**
+  * **The biggest takeaway from this is that when access control comes into play, the best way to do a CSRF attack would be an XSS attack or a stored file on the vulnerable web application server.**
   
   
