@@ -11,7 +11,7 @@
 ### Security Level: Medium
 #
 * This seem to have worked just fine with my previous HTML page, so I looked at the source code.
-* **Looks like there is some access control implemented to see if the connection comes from the same domain (192.168.1.8), which it does.**
+* **Looks like there is some access control implemented to see if the connection comes from the same domain (192.168.1.8/test/testscript.html), which it does.**
 #
 ![](./images/CSRF_Medium1.png)
 #
