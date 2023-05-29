@@ -29,5 +29,6 @@
   instead of some MITM that would require a cert to be installed on the victim's browser.
 * Going back to the XSS lab, we can change the admin's password by inserting <img><img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
   into the name field. We can confirm the password was changed via the HTTP responses.
+  #
   ![](./images/CSRF_Medium2.png)
   
