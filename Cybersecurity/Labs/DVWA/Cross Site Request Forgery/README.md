@@ -1,7 +1,7 @@
 ### Security Level: Low
 #
 * For this attack, we'll host a HTML page that will change the admin's password if they were to visit the page.
-* This page will be hosted on the same server that is running the web application.
+* **This page will be hosted on the same server that is running the web application.**
 * This doesn't have any access control (checking the origin site) or authorization (cookies) mechanisms to protect the 
   user from social engineering attacks, so it will be quite easy to change their password.
 #
@@ -11,7 +11,7 @@
 ### Security Level: Medium
 #
 * This seem to have worked just fine with my previous HTML page, so I looked at the source code.
-* Looks like there is some access control implemented to see if the connection comes from the same domain, which it does.
+* **Looks like there is some access control implemented to see if the connection comes from the same domain (192.168.1.8), which it does.**
 #
 ![](./images/CSRF_Medium1.png)
 #
