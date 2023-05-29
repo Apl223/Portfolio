@@ -22,8 +22,9 @@
 * I would somehow have to preserve the referrer header in the request when a user makes a request from my HTML page,
   otherwise the password change will not work. This will most likely involve a layered attack with open redirection or XSS
   to grab that information before I can submit a password change.
-* <<span>meta> elements wont work to remove the requirement of the referrer header since the php source code requires we have it.
+* **<<span>meta> elements wont work to remove the requirement of the referrer header since the php source code requires we have it.**
     * Example: <<span>meta name="referrer" content="never"> 
+* **Also tried circumventing the referrer check by putting 192.168.1.8 in different parts of the URL with history.pushState(), that didnt work either.**
 * One solution was to copy the referrer header that is sent by clicking the "Change" button on the DVWA page to the
   HTTP request that comes from my HTML page. But this is suppose to be a social engineering attack that is supposed to be done on my HTML
   page instead of some MITM that would require a cert to be installed on the victim's browser.
