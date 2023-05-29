@@ -27,8 +27,8 @@
 * One solution was to copy the referrer header that is sent by clicking the "Change" button on the DVWA page, to the
   HTTP request that comes from my HTML page. But this is suppose to be a social engineering attack that is supposed to be done on my HTML
   instead of some MITM that would require a cert to be installed on the victim's browser.
-* Although it doesnt involve my HTML page,**The best way would be to find a XSS vulnerability to carry out our CSRF.** Going back to the XSS lab, we can change 
-  the admin's password by inserting <img<span>><<span>img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
+* Although it doesnt involve my HTML page,**the best way would be to find a XSS vulnerability to carry out our CSRF. We can be compliant with the referrer by doing this.**
+  Going back to the XSS lab, we can change the admin's password by inserting <img<span>><<span>img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
   into the name field. We can confirm the password was changed via the HTTP responses.
   #
   ![](./images/CSRF_Medium2.png)
@@ -36,8 +36,7 @@
   * As a note. the broken image symbol confirms that the <img<span>> element has been formed. Also meaning it wasn't escaped properly.
   ![](./images/CSRF_Medium3.png)
   #
-  * **But this wouldnt work in practice because it would require the user to paste that into said form.**
-  * **Even if we could get the referrer header to work on my HTML page, it wouldnt work either in practice because 
-    most sites require you to provide the current or previous password before changing someones password.**
+  * **But this would be hard to pull off in practice because it would require the user to paste that into said form. Unless you have their session cookie, you could do it yourself.**
+  * **It would also be difficult to change someone's password because most sites will require you to provide the current or previous password before changing it.**
   
   
