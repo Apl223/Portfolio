@@ -25,4 +25,4 @@
 * <<span>meta> elements wont work to remove the requirement of the referrer header since the php source code requires we have it.
     * <<span>meta name="referrer" content="never"> 
 * One solution was to copy the referrer header that is sent by clicking the "Change" button on the DVWA page, to the
-  HTTP request that comes from my HTML page.
+  HTTP request that comes from my HTML page. After doing a little bit of research, we can add refer heads with history.pushState().
