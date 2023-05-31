@@ -34,3 +34,10 @@
   can insert <scri<script>pt>alert('hello')</script>
 #
 ![](./images/XSS_S5LVL2.png)
+#
+### Security level: HIGH
+#
+* Looking at the source code
+#
+![](./images/XSS_S1LVL3.png)
+![](./images/XSS_S2LVL3.png)
