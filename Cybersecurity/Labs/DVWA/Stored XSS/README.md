@@ -37,15 +37,5 @@
 #
 ### Security level: HIGH
 #
-* Looking at the source code, there seems to be another one to one conversion of a string to an empty string.
-  I thought by changing some of the capitilizations of the letters for that same string it compares itself to, this might've not been
-  that complicated to figure out. But the more requests I sent in, I realized it was a more complicated protection mechanism
-  involving wildcard symbols (*) because <scri<script>pt>alert('hello')</script> was being filtered for the most part.
-* What would often happen was that > would go through in the Name field when submitted, so there was only two possible > that existed in the previous test.
-  But then I noticed in that same line in the source code that the i had a / next to it, and the < at the start had a /. I was curious what affect it had.
-* Putting the letter s at the start before the / will bypass the protection mechanism that line in the source codes attempts. 
-* This isn't enough to put together a complete exploit, but its a start.                                                                             
-#
-![](./images/XSS_S1LVL3.png)
-![](./images/XSS_S2LVL3.png)
+*                                                                        
 #
