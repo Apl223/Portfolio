@@ -45,6 +45,7 @@
   The hints provided by the DVWA page says that I should use HTML events.
 * **Looks like a previous piece of code I used for testing for the medium level problem works for this: <body<meta> onload=alert(1)><meta>.**
   I assumed this wouldn't work before since it didnt work on medium, but thats because I was inserting that into the message box instead of the name field.
+#
 ![](./images/XSS_S1LVL3.png)                                                                    
 #
 * The wildcards symbols inbetween protect the name field from being escaped with whitespaces or other symbols to circumvent sanitization.
