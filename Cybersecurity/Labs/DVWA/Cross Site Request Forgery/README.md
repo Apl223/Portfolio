@@ -45,4 +45,3 @@
   ### Security Level: High
   #
   * This will require me to add the user token to my XSS that appears in the requests for the password change from the DVWA page.
-  * I will solve a Stored XSS attack on High before solving this part.
