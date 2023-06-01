@@ -37,15 +37,16 @@
 #
 ### Security level: HIGH
 #
-* Looking at the source code, there seems to be another one to one conversion of a string to an empty string.
+* Looking at the source code, there seems to be another one to one conversion of a string to an empty string for the name field.
   I thought by changing some of the capitilizations of the letters for that same string it compares itself to, this might've not been
   that complicated to figure out. But the more requests I sent in, I realized it was a more complicated protection mechanism
   involving wildcard symbols (*) because <scri<script>pt>alert('hello')</script> was being filtered for the most part.
 * This isn't enough to put together a complete exploit, but its a start. I had a hard time figuring out a solution so I seeked some solutions.
   The hints provided by the DVWA page says that I should use HTML events.
 * **Looks like a previous piece of code I used for testing for the medium level problem works for this: <body<meta> onload=alert(1)><meta>.**
-  I assumed this wouldn't work before since it didnt work on medium, but that goes to show that these vulernabilities don't work in that fashion where
-  more complicated solutions neccasarily exploit simple issues.
+  I assumed this wouldn't work before since it didnt work on medium, but that goes to show that **these vulernabilities don't work in that fashion where
+  more complicated solutions neccasarily exploit simple issues.**
 #
-![](./images/XSS_S1LVL3.png)                                                                     
+![](./images/XSS_S1LVL3.png)                                                                    
 #
+* The wildcards symbols inbetween protect the name field from being escaped with whitespaces or other symbols to circumvent sanitization.
