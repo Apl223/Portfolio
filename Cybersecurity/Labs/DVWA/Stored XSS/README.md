@@ -41,7 +41,11 @@
   I thought by changing some of the capitilizations of the letters for that same string it compares itself to, this might've not been
   that complicated to figure out. But the more requests I sent in, I realized it was a more complicated protection mechanism
   involving wildcard symbols (*) because <scri<script>pt>alert('hello')</script> was being filtered for the most part.
-* This isn't enough to put together a complete exploit, but its a start. I had a hard time figuring out a solution so I seeked some solutions.                                                                            
+* This isn't enough to put together a complete exploit, but its a start. I had a hard time figuring out a solution so I seeked some solutions.
+  The hints provided by the DVWA page says that I should use HTML events.
+* **Looks like a previous piece of code I used for testing for the medium level problem works for this: <body<meta> onload=alert(1)><meta>.**
+  I assumed this wouldn't work before since it didnt work on medium, but that goes to show that these vulernabilities don't work in that fashion where
+  more complicated solutions neccasarily exploit simple issues.
 #
 ![](./images/XSS_S1LVL3.png)                                                                     
 #
