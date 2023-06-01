@@ -41,7 +41,7 @@
   I thought by changing some of the capitilizations of the letters for that same string it compares itself to, this might've not been
   that complicated to figure out. But the more requests I sent in, I realized it was a more complicated protection mechanism
   involving wildcard symbols (*) because <scri<script>pt>alert('hello')</script> was being filtered for the most part.
-* This isn't enough to put together a complete exploit, but its a start.                                                                             
+* This isn't enough to put together a complete exploit, but its a start. I had a hard time figuring out a solution so I seeked some solutions.                                                                            
 #
 ![](./images/XSS_S1LVL3.png)                                                                     
 #
