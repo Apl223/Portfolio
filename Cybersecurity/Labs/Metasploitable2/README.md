@@ -5,7 +5,7 @@
 
 ### Nmap results
 * As expected from a vulnerable machine, it has way too many open ports, and plenty of them show OS/version info.
-* FTP, SQL & services that involve
+* FTP, SQL & services that involve some sort of authentication would be noteworthy targets.
 #
 ![](./images/Metasploitable2nmap.png)
   
