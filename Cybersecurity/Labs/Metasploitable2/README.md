@@ -1,6 +1,5 @@
 ### Goals
 * The purpose of this lab is to get some experience with reconnasance tools, scripts and exploit databases.
-* I wanted to try to find at least one vulnerability that I can open a shell on.
 ### Nmap results
 * As expected from a vulnerable machine, it has way too many open ports. Plenty of them show OS/version info.
 * FTP, SQL & services that involve some sort of authentication would be noteworthy targets.
