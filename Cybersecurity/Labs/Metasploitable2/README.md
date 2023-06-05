@@ -2,7 +2,7 @@
 * The purpose of this lab is to get some experience with reconnasance tools, scripts and exploit databases.
 * I wanted to try to find at least one vulnerability that I can open a shell on.
 ### Nmap results
-* As expected from a vulnerable machine, it has way too many open ports, and plenty of them show OS/version info.
+* As expected from a vulnerable machine, it has way too many open ports. Plenty of them show OS/version info.
 * FTP, SQL & services that involve some sort of authentication would be noteworthy targets.
 #
 ![](./images/Metasploitable2nmap.png) 
@@ -11,3 +11,8 @@
   we can use it to get a shell.
 #
 ![](./images/VSFTPD.png)
+### FTP & SQL weak login credentials
+* By running built-in nmap scripts, we can check if the system has weak or non-existant login credentials.
+#
+![](./images/FTPANON.png)
+![](./images/SQLBRUTE.png)
