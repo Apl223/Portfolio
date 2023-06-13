@@ -44,7 +44,7 @@
 * This isn't enough to put together a complete exploit, but its a start. I had a hard time figuring out a solution so I seeked some solutions.
   The hints provided by the DVWA page says that I should use HTML events.
 * **Looks like a previous piece of code I used for testing for the medium level problem works for this: <body<meta> onload=alert(1)><meta>.**
-  I assumed this wouldn't work before since it didnt work on medium, but thats because I was inserting that into the message box instead of the name field.
+  I assumed this wouldn't work before since it didnt work on medium, but thats because I was inserting that into the message box instead of the name field in the last excercise.
 #
 ![](./images/XSS_S1LVL3.png)                                                                    
 #
