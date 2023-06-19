@@ -56,3 +56,8 @@
         But this didn't work either.
       * It looked like the user_token value that was hidden on the /csrf/ page was changing whenever I made a request to it.
   * At this point, I was stuck and researched for solutions and the source code
+  #
+  ![](./images/CSRF_High1.png)
+  #
+  * Looks like it checks to see if values were set, which I have before so that shouldn't be the problem.
+  * However, I'm not sure how to get around the Anti-CSRF token check.
