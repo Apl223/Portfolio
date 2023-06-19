@@ -56,6 +56,7 @@
   ![](./images/CSRF_High1.png)
   #
   * Looks like it checks to see if values were set, which I have before so that shouldn't be the problem.
+  * The Anti-CSRF token check involves validating the token and redirecting to index.php if the check fails.
   * **The solution was to provide a URL with the the host, the path to the page, and the values to pass. Such as:
     http://192.168.1.8/dvwa/vulnerabilities/csrf/?password_new=test&password_conf=test&Change=Change&user_token=4202d63409c601b9230b4834ffa92a89**
   
