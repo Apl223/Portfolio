@@ -60,4 +60,3 @@
   ![](./images/CSRF_High1.png)
   #
   * Looks like it checks to see if values were set, which I have before so that shouldn't be the problem.
-  * However, I'm not sure how to get around the Anti-CSRF token check.
