@@ -6,3 +6,4 @@
   encoding that value with MD5 in the source code. That is then compared to the hidden token value.
   Since the hidden token isn't the right value, we have to figure out what the MD5 value is for "success" then replace the hidden
   token value with that, then proceed to submit the phrase "success".
+    * Text-to-ROT13 converters and MD5 hash generators online were used.
