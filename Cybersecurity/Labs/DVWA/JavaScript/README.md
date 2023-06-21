@@ -11,3 +11,5 @@
 ![](./images/JavaScript_Low1.png)
 ![](./images/JavaScript_Low2.png)
 #
+### Security level: MEDIUM
+#
