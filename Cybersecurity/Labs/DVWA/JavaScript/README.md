@@ -26,4 +26,6 @@
   It also passes the string "XX".
 * From lines 11-14, do_elsesomething() passes e to do_something() so that the "token" value is set
   to a concatenation between the value of e, the "phrase" value and "XX".
-* Since setTimeout passes "XX", the token value would come out  to be XXphraseXX
+* Since setTimeout passes "XX", the token value would come out  to be XXphraseXX.
+* **The solution of the problem would be typing success backwards, and change the hidden token value to include it between the two XX.
+  Since the do_something() function decrements, and by default, the token value is XXeMegnahCXX where the phrase is ChangeMe backwards.**
