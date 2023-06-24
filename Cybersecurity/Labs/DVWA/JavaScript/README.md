@@ -13,3 +13,17 @@
 #
 ### Security level: MEDIUM
 #
+* This JavaScript was hard to read in the source code for this level, so I utilized a online cleaner
+  to beautify it.
+#
+![](./images/JavaScript_Medium1.png)
+#
+* From lines 1-4, do_something() passes the variable e to the for loop
+  where t is an emptry string and n is set to the length of e (subtracted by one
+  in consideration of the elements) and decrements as long as n is bigger or equal to 0.
+  While it iterates, it sets every element in e, denoted by n to t (while it decrements).
+* setTimeout delays the execution of do_elsesomething by 300 milliseconds (or 0.3 seconds).
+  It also passes the string "XX".
+* From lines 11-14, do_elsesomething() passes e to do_something() so that the "token" value is set
+  to a concatenation between the value of e, the "phrase" value and "XX".
+* Since setTimeout passes "XX", the token value would come out  to be XXphraseXX
