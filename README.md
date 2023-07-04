@@ -1,6 +1,6 @@
-### [Cybersec](https://apl223.github.io/Portfolio/Cybersecurity/)
+### [Network security](https://apl223.github.io/Portfolio/Cybersecurity/)
 
-This page contains my activities and labs that I've built to expand my knowledge and skills in cybersecurity.
+This page contains my current setup for virtual machines and activities done to explore vulnerabilities and exploits.
 
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
