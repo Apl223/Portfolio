@@ -1,4 +1,4 @@
-### [Network security](https://apl223.github.io/Portfolio/Cybersecurity/)
+### [Network & application security](https://apl223.github.io/Portfolio/Cybersecurity/)
 
 This page contains my current setup for virtual machines and activities done to explore vulnerabilities and exploits.
 
