@@ -1,6 +1,6 @@
 ### [Network & application security](https://apl223.github.io/Portfolio/Cybersecurity/)
 
-This page contains my current setup for virtual machines and activities done to explore vulnerabilities and exploits.
+Home network setup, books, & labs done.
 
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
