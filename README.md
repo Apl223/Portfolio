@@ -1,6 +1,6 @@
 ### [Network & Application Security](https://apl223.github.io/Portfolio/Cybersecurity/)
 
-Home network setup, books, & labs done.
+Home network setup, books, & labs.
 
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
