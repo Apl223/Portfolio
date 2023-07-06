@@ -1,4 +1,4 @@
-### [Network & application security](https://apl223.github.io/Portfolio/Cybersecurity/)
+### [Network & Application Security](https://apl223.github.io/Portfolio/Cybersecurity/)
 
 Home network setup, books, & labs done.
 
