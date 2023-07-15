@@ -6,3 +6,4 @@ Home network setup, books, & labs.
 
 Projects include training and validating models, web scraping, and web applications that query databases.
 
+### [Contributions](https://github.com/pulls)
