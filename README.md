@@ -8,4 +8,4 @@ Projects include training and validating models, web scraping, and web applicati
 
 ### [Contributions](https://github.com/pulls)
 
-My work on open source projects.
+Work on open source projects.
