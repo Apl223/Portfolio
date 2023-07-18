@@ -9,3 +9,7 @@ Projects include training and validating models, web scraping, and web applicati
 ### [Contributions](https://github.com/pulls)
 
 Work on open source projects.
+
+### [Courses]
+
+Non-accredited courses I've taken.
