@@ -10,6 +10,6 @@ Projects include training and validating models, web scraping, and web applicati
 
 Work on open source projects.
 
-### [Courses]([https:](https://apl223.github.io/Portfolio/Courses/)
+### [Courses](https://apl223.github.io/Portfolio/Courses/)
 
 Non-accredited courses I've taken.
