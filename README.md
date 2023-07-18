@@ -12,4 +12,4 @@ Work on open source projects.
 
 ### [Courses](https://apl223.github.io/Portfolio/Courses/)
 
-Non-accredited courses I've taken.
+Non-accredited courses from Coursera and other platforms.
