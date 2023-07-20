@@ -1,6 +1,6 @@
 ### [Duke University](https://github.com/Apl223/DukeUniversity)
 
-Learning Java by analyzing weather and DNA data. Here is my [certification](https://coursera.org/share/c9ae523a2fea5b161876b474941afed3).
+Learning Java by analyzing weather and DNA data.
 
 ### [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/XZSGQZ4ZGV5V)
 
