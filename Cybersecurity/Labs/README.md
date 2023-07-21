@@ -12,6 +12,6 @@
         <td><a href="https://github.com/Apl223/Portfolio/tree/main/Cybersecurity/Labs/Metasploitable2"> Metasploitable 2 </a></td>
     </tr>
     <tr>
-        <td><img width="64" src="./images/EthicalHackingDaniel.png"></td>
+        <td><img width="32" src="./images/EthicalHackingDaniel.png"></td>
         <td><a href="https://github.com/Apl223/Portfolio/tree/main/Cybersecurity/Books/EthicalHackingDaniel"> Ethical Hacking A Hands-On Introduction to Breaking In  </a></td>
     </tr>
