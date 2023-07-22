@@ -9,4 +9,3 @@
 ### Tools
 * dsniff, a package for tools such as arpspoof
 * netdiscover for IP/MAC discovery with ARP queries
-* 
