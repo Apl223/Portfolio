@@ -9,3 +9,7 @@
 ### Tools
 * dsniff, a package for tools such as arpspoof
 * netdiscover for IP/MAC discovery with ARP queries
+
+# Lab
+* Enable IP forwarding so that you can forward packets on behalf of someone else.
+    * echo 1 > /proc/sys/net/ipv4/ip_forward
