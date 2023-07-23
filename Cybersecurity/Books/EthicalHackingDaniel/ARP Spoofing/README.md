@@ -19,6 +19,7 @@
 * Spoofed the router ARP table so that the Kali Linux machine is the victim machine to which is sends Metasploitable's responses to
   with arpspoof -i eth0 -t <ROUTER_IP> <VICTIM_IP>
 * Opened a 3rd terminal to see intercepted packets from the metasploitable VM and the responses with urlsnarf.
+#
 ![](./images/kali.png)
 #
 Sent a HTTP request to Google, which is intercepted above along with the response
