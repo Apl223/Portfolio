@@ -8,7 +8,7 @@ Introductory course in exploring neural networks with theoretical mathematics, a
 
 ### [Intro to Machine Learning](https://www.kaggle.com/learn/certification/rainslowinski/intro-to-machine-learning) & [Intermediate Machine Learning](https://www.kaggle.com/learn/certification/rainslowinski/intermediate-machine-learning)
 
-Introductory courses to choosing the right models for training and validating data, such as decision trees and fine tuning hyperparameters. 
+Introductory courses in machine learning. Explores choosing the right models for training and validating data, such as decision trees and fine tuning hyperparameters. 
 Explored methods in transforming data such as hot encoding, imputating, and ordinal encoding. Covered concepts such as overfitting and underfitting.
 
 ### [Programming Foundations with JavaScript, HTML & CSS](https://coursera.org/share/4f7ed26f6cf5f47ac0577c0ba619664a)
