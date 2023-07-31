@@ -5,7 +5,7 @@ Showcases how ransomware is implemented with publickey crpytography with a Pytho
 that encrypts one or multiple files. Excercises involve building a server that decrypts a symmetrical key
 and returns it to the victim, and extending it so that it sends a copy of the encrypted key to the server.
 
-Book doesn't cover how to generate the key itself, and there was some formating problems with the code
+Book doesn't cover how to generate the key itself in this chapter, and there was some formating problems with the code
 that was present in the book for these excercises. For example, Apple Keynote 5 presentation files
 would be generated instead of PGP when generating a .key file for the encrypted symmetrical key.
 I'm still coming up with a solution to the problem.
