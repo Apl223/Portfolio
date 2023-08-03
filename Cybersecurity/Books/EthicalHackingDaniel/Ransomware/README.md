@@ -8,5 +8,3 @@ and returns it to the victim, and extending it so that it sends a copy of the en
 Book doesn't cover how to generate the key itself in this chapter, and there was some formating problems with the code
 that was present in the book for these excercises. For example, Apple Keynote 5 presentation files
 would be generated instead of PGP when generating a .key file for the encrypted symmetrical key.
-I found this issue when generating a .key file for my private key as well, it looks like there
-may be issues with using the cryptography library. I'm still coming up with a solution to the problem.
