@@ -15,4 +15,4 @@ Client runs on the left, server on the right.
 #
 Book doesn't cover how to generate the key itself in this chapter, and there was some formating problems with the code
 that was present in the book for these excercises. For example, Apple Keynote 5 presentation files
-would be generated instead of PGP when generating a .key file for the encrypted symmetrical key.
+would be generated instead of PGP when generating a .key file for the encrypted symmetrical key. This was programmed on Kali Linux.
