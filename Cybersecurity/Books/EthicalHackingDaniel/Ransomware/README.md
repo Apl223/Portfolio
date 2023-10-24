@@ -6,8 +6,8 @@ Showcases how ransomware is implemented with publickey crpytography that encrypt
 Built a client that generates a symmetrical key, encrypts a txt file, and encrypts the symmetrical key with a public key. 
 The encrypted key is then sent to a server to be decrypted with the private key that was generated from the RSA pair in the client. 
 The encrypted key also needed to be encoded with base64 for tranmission purposes and decoded on the server end.
-For simiplicity sake, I saved the private key to the same directory instead of sending it to a port on the server. 
-The decrypted symmetrical key is then sent back to the client, which is then used to decrypt the encrypted file.
+For simiplicity sake, I saved the private key to the same directory. The decrypted symmetrical key is then sent back to 
+the client, which is then used to decrypt the encrypted file.
 
 Client runs on the left, server on the right.
 ![](./images/commandlineoutput.PNG)
