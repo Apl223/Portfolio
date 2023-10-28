@@ -3,9 +3,7 @@
 ![](./images/emailspoof2.PNG)
 #
 * Confirming reciept of our email on metasploitable
-
 ![](./images/emailspoof1.PNG)
 #
 * Sending emails manually via script.
-
 ![](./images/emailspoof3.PNG)
