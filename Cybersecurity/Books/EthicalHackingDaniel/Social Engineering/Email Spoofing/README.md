@@ -6,6 +6,6 @@
 
 ![](./images/emailspoof1.PNG)
 #
-* Sending emails manually via [script](https://github.com/Apl223/Portfolio/blob/main/Cybersecurity/Books/EthicalHackingDaniel/Social%20Engineering/Email%20Spoofing/scripts/espoof.py).
+* Sending emails via [script](https://github.com/Apl223/Portfolio/blob/main/Cybersecurity/Books/EthicalHackingDaniel/Social%20Engineering/Email%20Spoofing/scripts/espoof.py).
 
 ![](./images/emailspoof3.PNG)
