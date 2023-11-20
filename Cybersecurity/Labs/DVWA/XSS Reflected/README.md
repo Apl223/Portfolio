@@ -12,4 +12,3 @@ store the code on the site, but outputs the results back. Usually done with sear
 ### Security level: HIGH:
 
 * Solution: <<meta>body onload=alert(1)>
-* similar to stored XSS page
