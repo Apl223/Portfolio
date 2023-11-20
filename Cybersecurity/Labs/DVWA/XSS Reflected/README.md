@@ -1,3 +1,6 @@
+Solutions are similar to stored XSS attacks. But the reflected variant doesn't
+store the code on the site, but outputs the results back. Usually done with search engines.
+
 ### Security level: LOW
 * Solution: <script> alert(1) </script>
 
