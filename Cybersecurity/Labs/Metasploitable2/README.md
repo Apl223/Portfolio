@@ -18,3 +18,6 @@
 #
 ### [CVE: 2010-2075, UnrealIRCd 3.2.8.1 - Backdoor Command Execution](https://www.exploit-db.com/exploits/16922)
 * Although no version number was footprinted, the IRC service only had one exploit related to it. Works with a bind payload.
+#
+### [Tomcat Ghostcat attack](https://www.rapid7.com/db/modules/auxiliary/admin/http/tomcat_ghostcat/)
+* An attacker can read the contents of configuration files and source code files of all webapps deployed on Tomcat.
