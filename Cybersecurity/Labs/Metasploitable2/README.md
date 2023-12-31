@@ -23,6 +23,6 @@
 ### [Tomcat Ghostcat attack](https://www.rapid7.com/db/modules/auxiliary/admin/http/tomcat_ghostcat/)
 * An attacker can read the contents of configuration and source code files of all webapps deployed on Tomcat.
 #
-### [CVE: CVE-2004-2687, DistCC Daemon Command Execution](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2687)
+### [CVE: 2004-2687, DistCC Daemon Command Execution](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2687)
 * Port allows for remote users to send commands without authorization checks.
 #
