@@ -17,7 +17,12 @@
 ![](./images/SQLBRUTE.png)
 #
 ### [CVE: 2010-2075, UnrealIRCd 3.2.8.1 - Backdoor Command Execution](https://www.exploit-db.com/exploits/16922)
+* Another backdoor added to the service back then, just like the vsftpd one.
 * Although no version number was footprinted, the IRC service only had one exploit related to it. Works with a bind payload.
 #
 ### [Tomcat Ghostcat attack](https://www.rapid7.com/db/modules/auxiliary/admin/http/tomcat_ghostcat/)
 * An attacker can read the contents of configuration and source code files of all webapps deployed on Tomcat.
+#
+### [CVE: CVE-2004-2687, DistCC Daemon Command Execution](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2687)
+* Port allows for remote users to send commands without authorization checks.
+#
