@@ -4,7 +4,7 @@ and make actions on their behalf.
 
 ### Security level: LOW
 
-* dvwaSession goes up by 1, so that corosponds to the admin account. Next would be a user
+* dvwaSession goes up by 1, so that corresponds to the admin account. Next would be a user
 
 ### Security level: MEDIUM
 
