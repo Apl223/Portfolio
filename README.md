@@ -4,7 +4,7 @@ Home network setup, books, & labs.
 
 ### [Powershell](https://github.com/Apl223/Portfolio/tree/main/PowerShell)
 
-Scripts I've used while on the job (Supporting LaGuardia Airport)
+Scripts I've used while on the job.
 
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
