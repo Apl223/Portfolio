@@ -2,9 +2,9 @@
 
 Home network setup, books, & labs.
 
-### [Powershell](https://github.com/Apl223/Portfolio/tree/main/PowerShell)
+### [PowerShell](https://github.com/Apl223/Portfolio/tree/main/PowerShell)
 
-Scripts I've used while on the job.
+Scripts I've created and utilized. Information gathering on devices, Group Policy enforcement, and querying software updates.
 
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
