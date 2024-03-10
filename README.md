@@ -9,7 +9,3 @@ Scripts I've created and utilized. Information gathering on devices, Group Polic
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
 Projects include training and validating models, web scraping, and web applications that query databases.
-
-### [Courses](https://apl223.github.io/Portfolio/Courses/)
-
-Non-accredited courses from Coursera and other platforms.
