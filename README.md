@@ -4,7 +4,7 @@ Home network setup, books, & labs.
 
 ### [PowerShell](https://github.com/Apl223/Portfolio/tree/main/PowerShell)
 
-Scripts I've utilized at LaGuardia.
+Scripts I've utilized to assist me with recon and common tasks.
 
 ### [Machine Learning (SQL/Python)](https://apl223.github.io/Portfolio/Machine-Learning/)
 
