@@ -4,7 +4,7 @@ echo "Navigate and select the driver you want to upload."
 # Opening File Explorer to select the file
 Add-Type -AssemblyName System.Windows.Forms
 $openFileDialog = New-Object System.Windows.Forms.OpenFileDialog
-$openFileDialog.InitialDirectory = "\\k021fs102\SD_SW\Software\SMG_Share"
+$openFileDialog.InitialDirectory = "\\server\SD_SW\Software\SMG_Share"
 $openFileDialog.ShowDialog() | Out-Null
 $DriverPath = $openFileDialog.FileName
 
