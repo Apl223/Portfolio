@@ -1,6 +1,6 @@
 ### [Network & Application Security](https://apl223.github.io/Portfolio/Cybersecurity/)
 
-Home network setup & labs.
+Network setup & labs.
 
 ### [PowerShell](https://github.com/Apl223/Portfolio/tree/main/PowerShell)
 
